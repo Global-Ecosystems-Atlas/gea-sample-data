@@ -3,27 +3,27 @@ This repository provides pre-relese samples of the Global Ecosystems Atlas data 
 
 ## Global Ecosystem Atlas Synthesis Map
 
-Ten snippets of the Global Ecosystems Atlas synthesis data are available for download. The snippets comply with the GEA synthesis data model, which is structured as four cloud-optimised raster files:
+Ten snippets of the Global Ecosystems Atlas synthesis data are available for download. The snippets comply with the GEA synthesis data model, which is structured as four [cloud optimised geotiff](https://cogeo.org/) files:
 
-* *gea_synthesis*: a 3-band multi-class cloud optimised raster that depicts the distributions of ecosystem functional groups, biomes and realms.
-* *gea_standalone*: a multiband  cloud optimised raster that depicts the distributions of ecosystems that cannot be served in a multiclass raster due to over- or under-laying other ecosystem types, such as pelagic ecosystems or sea ice.
-* *gea_data_mask*: a 3-band cloud optimised raster with bands intended to support analyses of the gea_synthesis and gea_standalone data products.
-* *gea_sources*: a 3-band  cloud optimised raster with bands that depict aspects of the source data, such as source data id, the year the data were produced and the native cell size of source data. 
+* *gea_synthesis*: a 3-band multi-class cloud optimised geotiff that depicts the distributions of ecosystem functional groups, biomes and realms.
+* *gea_standalone*: a multiband  cloud optimised geotiff that depicts the distributions of ecosystems that cannot be served in a multiclass raster due to over- or under-laying other ecosystem types, such as pelagic ecosystems or sea ice.
+* *gea_data_mask*: a 3-band cloud optimised geotiff with bands intended to support analyses of the gea_synthesis and gea_standalone data products.
+* *gea_sources*: a 3-band  cloud optimised geotiff with bands that depict aspects of the source data, such as source data id, the year the data were produced and the native cell size of source data. 
 
 ## Data format
 
 | Image Name      | Type            | Bands               | Description                                                                              |
 | --------------- | --------------- | ------------------- |------------------------------------------------------------------------------------------|
-| gea_synthesis | 8-bit integer | `efg`               | Pixel values represent ecosystem functional groups according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
+| `gea_synthesis.tif` | 8-bit integer | `efg`               | Pixel values represent ecosystem functional groups according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
 |                 |                 | `biome`             | Pixel values represent biome type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values)|
 |                 |                 | `realm`             | Pixel values represents realm type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
-| gea_standalone| 8-bit integer | `M2_1`              | Pixel values represent the distribution of [M2_1 Epipelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.1) |
+| `gea_standalone.tif`| 8-bit integer | `M2_1`              | Pixel values represent the distribution of [M2_1 Epipelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.1) |
 |                 |                 | `M2_2`              | Pixel values represent the distribution of [M2_2 Mesopelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.2) |
 |                 |                 | `...`               | Pixel values represent the distribution of each standalone ecosystem functional group following the Global Ecosystem Typology coded naming scheme |
-| gea_data_mask | 8-bit integer | `data_mask`         | Pixel values represent (0) no data, (1) valid data, (2) source data that could not be cross-referenced to the Global Ecosystem Typology |
+| `gea_data_mask.tif` | 8-bit integer | `data_mask`         | Pixel values represent (0) no data, (1) valid data, (2) source data that could not be cross-referenced to the Global Ecosystem Typology |
 |                 |                 | `efg_disagreement`  | Pixel values represent the number of different ecosystems mapped by overlapping source datasets |
 |                 |                 | `dataset_count`     | Pixel values represent the number of source datasets that have mapped the pixel |
-| gea_sources   | 16-bit integer| `source_id`         | The individual identifier for each source dataset in the Global Ecosystems Atlas |
+| `gea_sources.tif`   | 16-bit integer| `source_id`         | The individual identifier for each source dataset in the Global Ecosystems Atlas |
 |                 |                 | `cell_size`         | The pixel size in metres of the source dataset |
 |                 |                 | `dataset_year`      | The production year of the source dataset |
 
@@ -74,8 +74,7 @@ The numeral scheme, which indicate the pixel values that correspond to ecosystem
 
 
 ## Contact
-Nicholas Murray (nicholas.murray@jcu.edu.au).
-
+For any questions or queries regarding this dataset, please contact William Masson or Nick Murray.
 
 ## License
 These data snippets are licensed under a Creative Commons Attribution-Non Commercial 4.0 International License. [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
