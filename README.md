@@ -14,24 +14,24 @@ Ten snippets of the Global Ecosystems Atlas synthesis data are available for dow
 
 | Image Name      | Type            | Bands               | Description                                                                              |
 | --------------- | --------------- | ------------------- |------------------------------------------------------------------------------------------|
-| `gea_synthesis` | `8-bit integer` | `efg`               | `Pixel values represent ecosystem functional groups according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values)` |
-|                 |                 | `biome`             | `Pixel values represent biome type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values)`|
-|                 |                 | `realm`             | `Pixel values represents realm type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values)` |
-| `gea_standalone`| `8-bit integer` | `M2_1`              | `Pixel values represent the distribution of [M2_1 Epipelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.1)` |
-|                 |                 | `M2_2`              | `Pixel values represent the distribution of [M2_2 Mesopelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.2)` |
-|                 |                 | `...`               | `Pixel values represent the distribution of each standalone ecosystem functional group` |
-| `gea_data_mask` | `8-bit integer` | `data_mask`         | `Pixel values represent (0) no data, (1) valid data, (2) source data that could not be cross-referenced to the Global Ecosystem Typology` |
-|                 |                 | `efg_disagreement`  | `Pixel values represent the number of different ecosystems mapped by overlapping source datasets` |
-|                 |                 | `dataset_count`     | `Pixel values represent the number of source datasets that have mapped the pixel` |
-| `gea_sources`   | `16-bit integer`| `source_id`         | `The individual identifier for each source dataset in the Global Ecosystems Atlas` |
-|                 |                 | `cell_size`         | `The pixel size in metres of the source dataset` |
-|                 |                 | `dataset_year`      | `The production year of the source dataset` |
+| gea_synthesis | 8-bit integer | `efg`               | Pixel values represent ecosystem functional groups according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
+|                 |                 | `biome`             | Pixel values represent biome type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values)|
+|                 |                 | `realm`             | Pixel values represents realm type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
+| gea_standalone| 8-bit integer | `M2_1`              | Pixel values represent the distribution of [M2_1 Epipelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.1) |
+|                 |                 | `M2_2`              | Pixel values represent the distribution of [M2_2 Mesopelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.2) |
+|                 |                 | `...`               | Pixel values represent the distribution of each standalone ecosystem functional group following the Global Ecosystem Typology coded naming scheme |
+| gea_data_mask | 8-bit integer | `data_mask`         | Pixel values represent (0) no data, (1) valid data, (2) source data that could not be cross-referenced to the Global Ecosystem Typology |
+|                 |                 | `efg_disagreement`  | Pixel values represent the number of different ecosystems mapped by overlapping source datasets |
+|                 |                 | `dataset_count`     | Pixel values represent the number of source datasets that have mapped the pixel |
+| gea_sources   | 16-bit integer| `source_id`         | The individual identifier for each source dataset in the Global Ecosystems Atlas |
+|                 |                 | `cell_size`         | The pixel size in metres of the source dataset |
+|                 |                 | `dataset_year`      | The production year of the source dataset |
 
 
 ## Sample data availability
 The snippets are available as .zip Cloud-Optimised Raster files in this repository, or via Earth Engine with the following asset IDs:
 
-```
+```js
 
 ```
 
