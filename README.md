@@ -71,7 +71,12 @@ The numeral scheme, which indicate the pixel values that correspond to ecosystem
   license: 'TBA'
 };
 ```
+## Frequently asked questions
 
+*How can I view the data?*
+
+* The easiest way to view the data is in the Earth Engine app linked above. Make sure to use the layer function (top right corner) to step through the 9 standard data layers of the atlas synthesis map, as well as the standalone data layers.
+* You can also download the .zip files in this repository, unzip them and import them into QGIS or ArcGIS. Do note that the geotiff data include multiple bands (similar to a satellite image), so you will need to either extract bands ([ArcGIS](https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/extract-bands-function.htm) or simply use the symbology tools to show the unique palette for a classified image.
 
 ## Contact
 For any questions or queries regarding this dataset, please contact William Masson or Nick Murray.
