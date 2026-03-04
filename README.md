@@ -28,6 +28,11 @@ Ten snippets of the Global Ecosystems Atlas synthesis data are available for dow
 |                 |                 | `dataset_year`      | The production year of the source dataset |
 
 
+## Schematic of the synthesis map data model
+The Global Ecosystems Atlas Synthesis Map is structured as a complementary set of 4 Cloud-optimised GeoTIFFs. 
+
+![img](images/global-ecosystems-atlas-synthesis-data-model.jpg)
+
 ## Sample data availability
 The snippets are available as .zip Cloud-Optimised Raster files in this repository, or via Earth Engine with the following asset IDs:
 
