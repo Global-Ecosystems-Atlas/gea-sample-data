@@ -1,14 +1,14 @@
 # Global Ecosystems Atlas sample data
-This repository provides pre-relese samples of the Global Ecosystems Atlas data products for developers, governments or other data users. The samples will enable users to understand that format of the data products and begin to build analysis pipelines from the data.
+This repository provides pre-release samples of the Global Ecosystems Atlas data products for developers, governments or other data users. The samples will enable users to understand the format of the data products and begin to build analysis pipelines from the data.
 
 ## Global Ecosystem Atlas Synthesis Map
 
 Ten snippets of the Global Ecosystems Atlas synthesis data are available for download. The snippets comply with the GEA synthesis data model, which is structured as four [cloud optimised geotiff](https://cogeo.org/) files:
 
-* *gea_synthesis*: a 3-band multi-class cloud optimised geotiff that depicts the distributions of ecosystem functional groups, biomes and realms.
+* *gea_synthesis*: a 3-band multi-class cloud optimised geotiff that depicts the distributions of Ecosystem Functional Groups, biomes and realms.
 * *gea_standalone*: a multiband  cloud optimised geotiff that depicts the distributions of ecosystems that cannot be served in a multiclass raster due to overlying or underlying other ecosystem types, such as pelagic ecosystems or sea ice.
 * *gea_data_mask*: a 3-band cloud optimised geotiff with bands intended to support analyses of the gea_synthesis and gea_standalone data products.
-* *gea_sources*: a 3-band  cloud optimised geotiff with bands that depict aspects of the source data, such as source data id, the year the data were produced and the native cell size of source data. 
+* *gea_sources*: a 3-band cloud optimised geotiff with bands that depict aspects of the source data, such as source data id, the year the data were produced and the native cell size of source data. 
 
 ## Data format
 
