@@ -6,7 +6,7 @@ This repository provides pre-relese samples of the Global Ecosystems Atlas data 
 Ten snippets of the Global Ecosystems Atlas synthesis data are available for download. The snippets comply with the GEA synthesis data model, which is structured as four [cloud optimised geotiff](https://cogeo.org/) files:
 
 * *gea_synthesis*: a 3-band multi-class cloud optimised geotiff that depicts the distributions of ecosystem functional groups, biomes and realms.
-* *gea_standalone*: a multiband  cloud optimised geotiff that depicts the distributions of ecosystems that cannot be served in a multiclass raster due to over- or under-laying other ecosystem types, such as pelagic ecosystems or sea ice.
+* *gea_standalone*: a multiband  cloud optimised geotiff that depicts the distributions of ecosystems that cannot be served in a multiclass raster due to overlying or underlying other ecosystem types, such as pelagic ecosystems or sea ice.
 * *gea_data_mask*: a 3-band cloud optimised geotiff with bands intended to support analyses of the gea_synthesis and gea_standalone data products.
 * *gea_sources*: a 3-band  cloud optimised geotiff with bands that depict aspects of the source data, such as source data id, the year the data were produced and the native cell size of source data. 
 
@@ -34,15 +34,11 @@ The Global Ecosystems Atlas Synthesis Map is structured as a complementary set o
 ![img](images/global-ecosystems-atlas-synthesis-data-model.jpg)
 
 ## Sample data availability
-The snippets are available as .zip Cloud-Optimised Raster files in this repository, or via Earth Engine with the following asset IDs:
-
-```js
-
-```
+The snippets have been packaged as .zip Cloud-Optimized Raster files and are available for download at this [link](https://radiantearth.github.io/stac-browser/#/external/global-ecosystems-atlas.github.io/stac/synthesis_map/snippets_v0_0_12/collection.json).
 
 Please view the data [interactively](https://geo-global-ecosystems-atlas.projects.earthengine.app/view/gea-snippets).
 
-![img](images/ee_snippet_app.jpg)
+![img](images/ee_snippet_app.png)
 
 ## Data properties
 
