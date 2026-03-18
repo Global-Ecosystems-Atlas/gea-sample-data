@@ -44,7 +44,7 @@ Please view the data interactively:
 
 Each of the four cloud-optimised raster files  in the Global Ecosystems Atlas Synthesis Map have the following properties. Note that colour palettes are provided in the properties and that QGIS, ArcGIS and standard hex code colour lists are provided in the [GEA palettes folder](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main/palettes) of the [gea-metadata] (https://github.com/Global-Ecosystems-Atlas/metadata) repository. 
 
-The numeral scheme, which indicate the pixel values that correspond to ecosystem functional group, biome or realm, are also provided in image properties or via the [pixel-values folder](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) of the [gea-metadata](https://github.com/Global-Ecosystems-Atlas/metadata) repository. 
+The numeral scheme, which indicate the pixel values that correspond to ecosystem functional group, biome or realm, are also provided in image properties or via the [pixel-values folder](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main/pixel-values) of the [gea-metadata repository](https://github.com/Global-Ecosystems-Atlas/metadata). 
 
 ```
 {
