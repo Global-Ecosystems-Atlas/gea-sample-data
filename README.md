@@ -3,7 +3,7 @@ This repository provides pre-release samples of the Global Ecosystems Atlas data
 
 ## Global Ecosystem Atlas Synthesis Map
 
-Ten snippets of the Global Ecosystems Atlas synthesis data are available for download. The snippets comply with the GEA synthesis data model, which is structured as four [cloud optimised geotiff](https://cogeo.org/) files:
+Five snippets of the Global Ecosystems Atlas synthesis data are available for download. The snippets comply with the GEA synthesis data model, which is structured as four [cloud optimised geotiff](https://cogeo.org/) files:
 
 * *gea_synthesis*: a 3-band multi-class cloud optimised geotiff that depicts the distributions of Ecosystem Functional Groups, biomes and realms.
 * *gea_standalone*: a multiband  cloud optimised geotiff that depicts the distributions of ecosystems that cannot be served in a multiclass raster due to overlying or underlying other ecosystem types, such as pelagic ecosystems or sea ice.
@@ -77,10 +77,10 @@ The numeral scheme, which indicate the pixel values that correspond to ecosystem
 *How can I view the data?*
 
 * The easiest way to view the data is in the Google Earth Engine app linked above. Make sure to use the layer function (top right corner) to step through the 9 standard data layers of the Atlas synthesis map, as well as the standalone data layers.
-* You can also download the .zip files in this repository, unzip them and import them into QGIS or ArcGIS. Do note that the geotiff data include multiple bands (similar to a satellite image), so you will need to either extract bands ([ArcGIS](https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/extract-bands-function.htm)) or simply use the symbology tools to show the unique palette for a classified image.
+* You can also download the .zip files in this repository, unzip them and import them into QGIS or ArcGIS. Note that the geotiff data include multiple bands (similar to a satellite image), so you will need to either extract bands (e.g. in [ArcGIS](https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/extract-bands-function.htm)) or use the symbology tools to show the unique palette for a classified image. Files are available in the [gea-metadata repository](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main/palettes) to assist in loading the colour palettes into ArcGIS and QGIS.
 
 ## Contact
-For any questions or queries regarding this dataset, please contact William Masson or Nick Murray.
+For any questions or queries regarding this dataset, please contact William Masson or [Nick Murray](mailto:nicholas.murray@jcu.edu.au).
 
 ## License
 These data snippets are licensed under a Creative Commons Attribution-Non Commercial 4.0 International License. [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
