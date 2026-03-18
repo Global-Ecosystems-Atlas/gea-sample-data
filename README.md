@@ -36,7 +36,7 @@ The Global Ecosystems Atlas Synthesis Map is structured as a complementary set o
 ## Sample data availability
 The snippets have been packaged as .zip Cloud-Optimized Raster files and are available for download at this [link](https://radiantearth.github.io/stac-browser/#/external/global-ecosystems-atlas.github.io/stac/synthesis_map/snippets_v0_0_12/collection.json).
 
-Please view the data interactively:
+You can also view the sample data on this app:
 
 [![Snippets app](images/ee_snippet_app.png)](https://geo-global-ecosystems-atlas.projects.earthengine.app/view/gea-snippets)
 
