@@ -17,7 +17,8 @@ Five snippets of the Global Ecosystems Atlas synthesis data are available for do
 | `gea_synthesis.tif` | 8-bit integer | `efg`               | Pixel values represent ecosystem functional groups according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
 |                 |                 | `biome`             | Pixel values represent biome type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values)|
 |                 |                 | `realm`             | Pixel values represents realm type according to the [GEA numeral scheme](https://github.com/Global-Ecosystems-Atlas/metadata/tree/main//pixel-values) |
-| `gea_standalone.tif`| 8-bit integer | `M2_1`              | Pixel values represent the distribution of [M2_1 Epipelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.1) |
+| `gea_standalone.tif`| 8-bit integer | `standalone_count`              | Pixel values represent the number of standalone ecosystems that occur at the location of the pixel |
+|                 |                 | `M2_1`              | Pixel values represent the distribution of [M2_1 Epipelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.1) |
 |                 |                 | `M2_2`              | Pixel values represent the distribution of [M2_2 Mesopelagic ocean waters](https://global-ecosystems.org/explore/groups/M2.2) |
 |                 |                 | `...`               | Pixel values represent the distribution of each standalone ecosystem functional group following the Global Ecosystem Typology coded naming scheme |
 | `gea_data_mask.tif` | 8-bit integer | `data_mask`         | Pixel values represent (0) no data, (1) valid data, (2) source data that could not be cross-referenced to the Global Ecosystem Typology |
